@@ -4775,6 +4775,20 @@ input, select, textarea {
     }
 }
 
+.hero-tech-roles {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8em;           /* Small, sleek font */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fdfdfd !important;
+    margin-top: 20px;
+    font-style: normal !important; 
+    word-spacing: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+}
+
 /* Override the vertical centering */
 #intro, #header {
     /* 1. Stop forcing it to the middle */
@@ -4782,7 +4796,7 @@ input, select, textarea {
     
     /* 2. Add your own spacing from the top */
     padding-top: 30px !important; /* Adjust this number to move it Up/Down */
-		margin-bottom: 5px;
+		margin-bottom: -500px;
     
     /* 3. Optional: Stop it from taking up the HUGE full screen height if you want */
     height: auto !important;
@@ -4796,7 +4810,7 @@ input, select, textarea {
 
 /* 1. Pull the Image/Text section UP towards the Name */
 .hero-split-body {
-    margin-top: -180px !important;  /* The Magic Number: Change this to pull it higher or lower */
+    margin-top: 0px !important;  /* The Magic Number: Change this to pull it higher or lower */
 		margin-bottom: 180px;
     padding-top: 0 !important;
     position: relative;            /* Ensures it sits correctly */
