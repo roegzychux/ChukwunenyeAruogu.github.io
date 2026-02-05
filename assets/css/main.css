@@ -4781,7 +4781,8 @@ input, select, textarea {
     justify-content: flex-start !important; 
     
     /* 2. Add your own spacing from the top */
-    padding-top: 120px !important; /* Adjust this number to move it Up/Down */
+    padding-top: 30px !important; /* Adjust this number to move it Up/Down */
+		margin-bottom: 5px;
     
     /* 3. Optional: Stop it from taking up the HUGE full screen height if you want */
     height: auto !important;
@@ -4795,7 +4796,7 @@ input, select, textarea {
 
 /* 1. Pull the Image/Text section UP towards the Name */
 .hero-split-body {
-    margin-top: -200px !important;  /* The Magic Number: Change this to pull it higher or lower */
+    margin-top: -180px !important;  /* The Magic Number: Change this to pull it higher or lower */
 		margin-bottom: 180px;
     padding-top: 0 !important;
     position: relative;            /* Ensures it sits correctly */
