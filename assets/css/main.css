@@ -4795,7 +4795,7 @@ input, select, textarea {
 
 /* 1. Pull the Image/Text section UP towards the Name */
 .hero-split-body {
-    margin-top: -300px !important;  /* The Magic Number: Change this to pull it higher or lower */
+    margin-top: -200px !important;  /* The Magic Number: Change this to pull it higher or lower */
 		margin-bottom: 180px;
     padding-top: 0 !important;
     position: relative;            /* Ensures it sits correctly */
